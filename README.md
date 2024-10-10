@@ -13,6 +13,30 @@
 
 ![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Main/Release/badge.svg)
 
+#### Complete DevSecops Architecture Design to be implemented on the Project in Pipeline
+![Continuous Integration](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/Security_checks.png)
+
+###### Project ToolBox 🧰
+- [Git](https://git-scm.com/) Git will be used to manage our application source code.
+- [Github](https://github.com/) Github is a free and open source distributed VCS designed to handle everything from small to very large projects with speed and efficiency
+- [Jenkins](https://www.jenkins.io/) Jenkins is an open source automation CI tool which enables developers around the world to reliably build, test, and deploy their software
+- [OPA](https://www.openpolicyagent.org/) OPA is an open source, general-purpose policy engine that unifies policy enforcement across the stack.
+- [Maven](https://maven.apache.org/) Maven will be used for the application packaging and building including running unit test cases
+- [Checkstyle](https://checkstyle.sourceforge.io/) Checkstyle is a static code analysis tool used in software development for checking if Java source code is compliant with specified coding rules and practices.
+- [SonarQube](https://docs.sonarqube.org/) SonarQube Catches bugs and vulnerabilities in your app, with thousands of automated Static Code Analysis rules.
+- [Nexus](https://www.sonatype.com/) Nexus Manage Binaries and build artifacts across your software supply chain
+- [OWASP Dependency Checks](https://owasp.org/www-project-dependency-check/) Dependency-Check is a Software Composition Analysis (SCA) tool that attempts to detect publicly disclosed vulnerabilities contained within a project's
+- [Trivy](https://trivy.dev/) Trivy is the most popular open source security scanner, reliable, fast, and easy to use. Use Trivy to find vulnerabilities & IaC misconfigurations
+- [Ansible](https://docs.ansible.com/) Ansible will be used for the application deployment to both lower environments and production
+- [EC2](https://aws.amazon.com/ec2/) EC2 allows users to rent virtual computers (EC2) to run their own workloads and applications.
+- [Slack](https://slack.com/) Slack is a communication platform designed for collaboration which can be leveraged to build and develop a very robust DevOps culture. Will be used for Continuous feedback loop.
+- [Prometheus](https://prometheus.io/) Prometheus is a free software application used for event/metric monitoring and alerting for both application and infrastructure.
+- [Grafana](https://grafana.com/) Grafana is a multi-platform open source analytics and interactive visualization web application. It provides charts, graphs, and alerts for the web when connected to supported data sources.
+- [Splunk](https://www.splunk.com/) Splunk is an innovative technology which searches and indexes application/system log files and helps organizations derive insights from the data.
+- [npm-check](https://www.npmjs.com/) By default npm-check will let you know if any of your modules are not being used by looking at require statements in your code
+- [GitGurdians](https://www.gitguardian.com/) GitGurdian monitor public and private repositories in real-time, detect secrets and alert to allow investigation and quick remediation
+- [Helm](https://helm.sh/) Helm helps you manage Kubernetes applications — Helm Charts help you define, install, and upgrade even the most complex Kubernetes application
+
 1) Create a GitHub Repository with the name `multi-microservices-application-project` and push the code in this branch *(main)* to your remote repository (your newly created repository). 
     - Go to GitHub: https://github.com
     - Login to `Your GitHub Account`

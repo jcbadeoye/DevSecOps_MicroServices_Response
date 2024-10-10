@@ -9,7 +9,7 @@
 
 ***
 #### Jenkins Microservices MultiBranch CI/CD Pipeline Automation Arch | Two
-![PipelineArch2](https://github.com/jcbadeoye/realworld-microservice-project/blob/main/docs/architectures/%5BCI-CD%20Arch%202%5D%20Microservices%20CI-CD-2.png)
+![PipelineArch2](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/architectures/microservicearchitecture.png)
 
 ![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Main/Release/badge.svg)
 

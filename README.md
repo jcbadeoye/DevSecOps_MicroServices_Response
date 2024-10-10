@@ -186,8 +186,8 @@ terraform apply --auto-approve
 - Then `Duplicate or Open` a New Console `Tab` and `Switch` to the `Ohio(us-east-2) Region`
 - Navigate to `EKS` and confirm that your Cluster was created successfully with the name `EKS_Cluster`
 - Also confirm there's no issue regarding your Terraform execution
-![JenkinsSetup1!](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/sdsdsdas.png)
-![JenkinsSetup2!](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/sfgsfs.png)
+![JenkinsSetup1!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/terraform_execution.png)
+![JenkinsSetup2!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/amazon_kubernetes_service.png)
 
 #### **⚠️`NOTE:ALERT!`⚠️:** FOLLOW THESE STEPS ONLY IF YOUR CLUSTER CREATION FAILED
 - If the Error Message says anything about `EKS IAM Roles` then...
@@ -283,7 +283,7 @@ kubectl get ns
     - Click on `Install`
     - Once all plugins are installed
     - Select/Check the Box **`Restart Jenkins when installation is complete and no jobs are running`**
-    ![PluginInstallation!](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/afda.png)
+    ![PluginInstallation!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/restart_jenkins.png)
     - Refresh your Browser and Log back into Jenkins
     - Once you log back into Jenkins
 
@@ -300,7 +300,7 @@ kubectl get ns
         * Select `Install from adoptium.net` 
         * Version: **`jdk-17.0.8.1+1`**
 
-        ![JDKSetup!](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/sdfbdasb.png)
+        ![JDKSetup!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/JDK_iNSTALL.png)
     
     - **Gradle Installation**
       - Click on `Add Gradle`
@@ -313,7 +313,7 @@ kubectl get ns
       - Click on `Add SonarQube Scanner` 
       - Name: `SonarScanner`
       - Enable: `Install automatically` 
-      ![SonarQubeScanner!](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/dcsdsvsvd.png)
+      ![SonarQubeScanner!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/SONARqUBE_INSTALLATION.png)
 
     - **Snyk Installations** 
       - Click on ``Add Snyk`
@@ -322,7 +322,7 @@ kubectl get ns
         - Version: `latest`
         - Update policy interval (hours): `24`
         - OS platform architecture: `Auto-detection`
-      ![SnykInstallation!](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/snyk-install.png)
+      ![SnykInstallation!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/snyk-install.png)
     
     - **Docker installations** 
       - Click on `Add Docker` 
@@ -331,7 +331,7 @@ kubectl get ns
         - Select `Download from docker.com`
         - Docker version: `latest`
       - Enable: `Install automatically` 
-      ![SonarQubeScanner!](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/svfdsv.png)
+      ![SonarQubeScanner!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/dOCKER_INSTALLATION.png)
 
 4)  #### Credentials setup(SonarQube, Slack, DockerHub, Kubernetes and ZAP):
     - Click on `Manage Jenkins`
@@ -418,7 +418,7 @@ kubectl get ns
                 - Name: `microservices-web-app-token`
                 - Type: `Global Analysis Token`
                 - Expires in: `30 days`
-              ![Sonar!](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/sdsdsddsd.png) 
+              ![Sonar!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/EXPIRE_IN_30_DAYS.png) 
               - Click on `GENERATE`
               - NOTE: *`Save The Token Somewhere...`*
 
@@ -545,7 +545,7 @@ kubectl get ns
         - Name: `Sonar-Server`
         - Server URL: http://YOUR_JENKINS_PRIVATE_IP:9000
         - Server authentication token: Select `SonarQube-Credential`
-        ![SonarQubeServerSetup!](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/vfsvfs.png)
+        ![SonarQubeServerSetup!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/CONFIGURE_SYSTEM.png)
 
     2)  - Still on `Manage Jenkins` and `Configure System`
         - Scroll down to the `Slack` Section (at the very bottom)
@@ -556,7 +556,7 @@ kubectl get ns
             - Default channel / member id: `#PROVIDE_YOUR_CHANNEL_NAME_HERE`
             - Click on `Test Connection`
             - Click on `Apply` and `Save`
-        ![SlackSetup!](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/sdgsdfg.png)
+        ![SlackSetup!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/RUN_A_TEST_SLACK.png)
 
 ### Pipeline creation (Make Sure To Make The Following Updates First)
 - UPDATE YOUR ``Jenkinsfiles...``

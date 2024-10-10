@@ -5,7 +5,7 @@
 ***
 
 #### Jenkins Microservices MultiBranch CI/CD Pipeline Automation Arch | One
-![PipelineArch1](https://github.com/awanmbandi/realworld-microservice-project/blob/main/docs/architectures/%5BCI-CD%20Arch%201%5D%20Microservices%20CI-CD-1.png)
+![PipelineArch1](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/architectures/microservice-cicd-pipelineautomation.png)
 
 ***
 #### Jenkins Microservices MultiBranch CI/CD Pipeline Automation Arch | Two
@@ -171,10 +171,10 @@ docker volume inspect volume sonarqube-volume
 - **NOTE:** *You Can As Well Deploy The Cluster Using Terraform From Your Local System*
 ```bash
 # Clone your project reporisoty
-git clone https://github.com/jcbadeoye/realworld-microservice-project.git
+git clone https://github.com/jcbadeoye/DevSecOps_MicroServices_Response.git
 
 # cd and checkout into the DevSecOps project branch
-cd realworld-microservice-project 
+cd DevSecOps_MicroServices_Response 
 cd terraform/AWS/eks-cluster
 
 # Deploy EKS Environment

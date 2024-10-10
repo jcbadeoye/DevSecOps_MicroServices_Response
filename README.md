@@ -512,7 +512,7 @@ kubectl get ns
             - ID: ``Snyk-API-Token``
             - Description: `Snyk-API-Token`
             - Click on `Create`
-        ![KubeCredential!](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/credentials-jenkins.png)
+        ![KubeCredential!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/snyk_credentials-jenkins.png)
 
 3)  #### Configure system:    
     1)  - Click on ``Manage Jenkins`` 

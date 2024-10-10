@@ -211,7 +211,7 @@ kubectl get ns
   - Click on `Add Rule`
   - Port Number: `30000-32767`, `80`, `22` Source: `0.0.0.0/0`
   - Click on `SAVE`
-![EKS-Sec-Group-Ports](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/sec_group.png)
+![EKS-Sec-Group-Ports](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/eks_sec_group.png)
 
 ### Jenkins setup
 1) #### Access Jenkins
@@ -220,7 +220,7 @@ kubectl get ns
         - Make sure you're still logged into your Jenkins Instance
         - Run the command: `sudo cat /var/lib/jenkins/secrets/initialAdminPassword`
         - Copy the password and login to Jenkins
-    ![JenkinsSetup1!](https://github.com/jcbadeoye/realworld-cicd-pipeline-project/raw/zdocs/images/jenkins-signup.png) 
+    ![JenkinsSetup1!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/jenkins-signup.png) 
       - **`NOTE:`** Copy the Outputed Password and Paste in the `Administrator password` in Jenkins
     - Plugins: Choose `Install Suggested Plugings` 
     - Provide 
@@ -265,7 +265,7 @@ kubectl get ns
 
 3)  #### Global tools configuration:
     - Click on Manage Jenkins -->> Global Tool Configuration
-    ![JDKSetup!](https://github.com/jcbadeoye/realworld-cicd-pipeline-project/blob/zdocs/images/sdsdsdsdsd.png)
+    ![JDKSetup!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/global_tools_config.png)
 
     - **JDK** 
         - Click on `Add JDK` -->> Make sure **Install automatically** is enabled 

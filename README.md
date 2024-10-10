@@ -20,10 +20,13 @@
 - [Git](https://git-scm.com/) Git will be used to manage our application source code.
 - [Github](https://github.com/) Github is a free and open source distributed VCS designed to handle everything from small to very large projects with speed and efficiency
 - [Jenkins](https://www.jenkins.io/) Jenkins is an open source automation CI tool which enables developers around the world to reliably build, test, and deploy their software
+- [OPA](https://www.openpolicyagent.org/) OPA is an open source, general-purpose policy engine that unifies policy enforcement across the stack.
 - [Maven](https://maven.apache.org/) Maven will be used for the application packaging and building including running unit test cases
 - [Checkstyle](https://checkstyle.sourceforge.io/) Checkstyle is a static code analysis tool used in software development for checking if Java source code is compliant with specified coding rules and practices.
 - [SonarQube](https://docs.sonarqube.org/) SonarQube Catches bugs and vulnerabilities in your app, with thousands of automated Static Code Analysis rules.
 - [Nexus](https://www.sonatype.com/) Nexus Manage Binaries and build artifacts across your software supply chain
+- [OWASP Dependency Checks](https://owasp.org/www-project-dependency-check/) Dependency-Check is a Software Composition Analysis (SCA) tool that attempts to detect publicly disclosed vulnerabilities contained within a project's
+- [Trivy](https://trivy.dev/) Trivy is the most popular open source security scanner, reliable, fast, and easy to use. Use Trivy to find vulnerabilities & IaC misconfigurations
 - [Ansible](https://docs.ansible.com/) Ansible will be used for the application deployment to both lower environments and production
 - [EC2](https://aws.amazon.com/ec2/) EC2 allows users to rent virtual computers (EC2) to run their own workloads and applications.
 - [Slack](https://slack.com/) Slack is a communication platform designed for collaboration which can be leveraged to build and develop a very robust DevOps culture. Will be used for Continuous feedback loop.

@@ -283,7 +283,7 @@ kubectl get ns
       - Name: `Gradle`
       - Enable `Install automatically`
       - Version: `8.8`
-      ![GradleInstallation!](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/gradle-setup.png)
+      ![GradleInstallation!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/gradle-setup.png)
 
     - **SonarQube Scanner** 
       - Click on `Add SonarQube Scanner` 

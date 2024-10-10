@@ -69,7 +69,7 @@
         - What we actually need: `8080`, `9000` and `22` to `0.0.0.0/0`
     - Storage: Increase to `50 GB`
     - IAM instance profile: Select the `AWS-EC2-Administrator-Role`
-    - User data (Copy the following user data): https://github.com/jcbadeoye/realworld-microservice-project/blob/main/installtions/installations.sh
+    - User data (Copy the following user data): https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/configurations/installations/installations.sh
     - Launch Instance
 
 #### ⚠️ NOTE:ALERT ⚠️

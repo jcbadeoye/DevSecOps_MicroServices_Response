@@ -5,7 +5,7 @@
 ***
 
 #### Jenkins Microservices MultiBranch CI/CD Pipeline Automation Arch | One
-![PipelineArch1](https://github.com/jcbadeoye/realworld-microservice-project/blob/main/docs/architectures/%5BCI-CD%20Arch%201%5D%20Microservices%20CI-CD-1.png)
+![PipelineArch1](https://github.com/awanmbandi/realworld-microservice-project/blob/main/docs/architectures/%5BCI-CD%20Arch%201%5D%20Microservices%20CI-CD-1.png)
 
 ***
 #### Jenkins Microservices MultiBranch CI/CD Pipeline Automation Arch | Two

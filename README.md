@@ -229,7 +229,7 @@ kubectl get ns
         - `Name` and `Email` can also be admin. You can use `admin` all, as its a poc.
     - Click `Continue`
     - Click on `Start using Jenkins`
-    ![JenkinsSetup2!](https://github.com/jcbadeoye/realworld-cicd-pipeline-project/raw/zdocs/images/Screen%20Shot%202023-04-24%20at%208.49.43%20AM.png) 
+    ![JenkinsSetup2!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/start_using_jenkins.png) 
 
 2)  #### Plugin installations:
     - Click on `Manage Jenkins`

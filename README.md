@@ -584,17 +584,17 @@ kubectl get ns
 ### Navigate Back To Jenkins and Confirm That All 12 Pipeline Jobs Are Running (11 Microservices Jobs and 1 DB Job)
   - Click on the `Jenkins Pipeline Job Name`
   - Click on `Scan Multibranch Pipeline Now`
-  ![MicroservicesPipelineJobs](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/scan_all_branch_pipelines.png)
+  ![MicroservicesPipelineJobs](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/NavigateBacko_Jenkins_scan_all_branch_pipelines.png)
 
 ### Confirm That All Microservices Branch Pipelines Succeeded (If Not, Troubleshoot)
-![MicroservicesPipelineJobs](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/piepline1.png)
-![MicroservicesPipelineJobs](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/piepline2.png)
+![MicroservicesPipelineJobs](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/confirm_that_pipeline_piepline1.png)
+![MicroservicesPipelineJobs](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/confirmed_that_micro_works2.png)
 
 ### SonarQube Code Inspection Result For All Microservices Source Code
-  ![SonarQubeResult!](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/sonarqube-test.png)
+  ![SonarQubeResult!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/sonarqube_code_inspect-test.png)
 
 ### Also Confirm You Have All Service Deployment/Docker Artifacts In DockerHub
-![DockerHubImages](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/microservices-artifacts.png)
+![DockerHubImages](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/also_confirm_microservices-artifacts.pnghttps://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/also_confirm_microservices-artifacts.png)
 
 ### PERFORM THE DEPLOYMENT IN THE STAGING ENVIRONMENT/NAMESPACE (EKS CLUSTER)
 - To perform the DEPLOYMENT in the staging Envrionment 
@@ -618,7 +618,7 @@ kubectl get ns
   - SSH Back into your `Jenkins-CI` Server
       - RUN: `kubectl get svc -n test-env`
       - **NOTE:** COPY the Exposed `NodePort Pod Number`
-      ![NodeportTestEnv](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/dssdsdsdsasasfdghjkjnbf.png)
+      ![NodeportTestEnv](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/test_apploication.png)
   
   - Access The Application Running in the `Test Environment` within the Cluster
   - `Update` the EKS Cluster Security Group ***(If you've not already)***
@@ -630,7 +630,7 @@ kubectl get ns
   ![TestEnv]()
 
   - Stage Deployment Succeeded
-  ![TestEnv](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/piepline2.png)
+  ![TestEnv](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/stage_deploy_succeed.png)
 
 ### PERFORM THE DEPLOYMENT NOW TO THE PRODUCTION ENVIRONMENT/NAMESPACE (EKS CLUSTER)
 - To perform the DEPLOYMENT to the Prod Envrionment 
@@ -659,16 +659,16 @@ kubectl get ns
       ![TestEnv]()
 
   - SonarQube Code Inspection Result For All Microservices Source Code
-  ![SonarQubeResult!](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/sonarqube-test.png)
+  ![SonarQubeResult!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/sonarqube_code_inspect-test.png)
 
   - Snyk SCA Test Result
-  ![SnykResult!](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/snyk-sdcsvbfgddx.png)
+  ![SnykResult!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/snyk-sca_test.png)
 
   - Test/Scan Dockerfiles with Open Policy Agent (OPA)
-  ![OPATest!](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/OPA-Analysis.png)
+  ![OPATest!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/test_scan_docker_fileOPA-Analysis.png)
 
   - Slack Continuous Feedback Alert
-  ![SlackResult!](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/asasasdsffghgjkjhjtyreew.png)
+  ![SlackResult!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/slack_continous_feed_back.png)
 
 ### Congratulations Your Deployment Was Successful
 

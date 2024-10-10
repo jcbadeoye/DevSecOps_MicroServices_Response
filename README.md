@@ -33,6 +33,7 @@
 - [Prometheus](https://prometheus.io/) Prometheus is a free software application used for event/metric monitoring and alerting for both application and infrastructure.
 - [Grafana](https://grafana.com/) Grafana is a multi-platform open source analytics and interactive visualization web application. It provides charts, graphs, and alerts for the web when connected to supported data sources.
 - [Splunk](https://www.splunk.com/) Splunk is an innovative technology which searches and indexes application/system log files and helps organizations derive insights from the data.
+- [npm-check](https://www.npmjs.com/) By default npm-check will let you know if any of your modules are not being used by looking at require statements in your code
 
 1) Create a GitHub Repository with the name `multi-microservices-application-project` and push the code in this branch *(main)* to your remote repository (your newly created repository). 
     - Go to GitHub: https://github.com

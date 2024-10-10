@@ -47,7 +47,7 @@
 3) Create An IAM Profile/Role For The `Jenkins-CI` Server
 - Create an EC2 Service Role in IAM with AdministratorAccess Privilege 
 - Navigate to IAM
-![IAM!](https://github.com/jcbadeoye/realworld-cicd-pipeline-project/blob/zdocs/images/Screen%20Shot%202023-10-03%20at%206.20.44%20PM.png)
+![IAM!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/IAMscreenshot.png)
     - Click on `Roles`
     - Click on `Create Role`
     - Select `Service Role`
@@ -100,7 +100,7 @@ docker run -d --name PROVIDE_NAME_HERE -v sonarqube-volume:/opt/sonarqube/data -
       - Click `Add Jenkins CI Integration`
       - Scrol Down and Click `SAVE SETTINGS/CONFIGURATIONS`
       - Leave this page open
-      ![SlackConfig!](https://github.com/jcbadeoye/realworld-microservice-project/blob/zdocs/images/slack-multi-microservices-project.png)
+      ![SlackConfig!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/slack-multi-microservices-project.png)
 
 ### 5A) Verify the Following Services are running in the Jenkins Instance
 - SSH into the `Jenkins-CI` server

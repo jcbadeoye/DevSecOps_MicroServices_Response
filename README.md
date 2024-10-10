@@ -13,6 +13,9 @@
 
 ![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Main/Release/badge.svg)
 
+#### Complete DevSecops Architecture Design to be implemented on the Project in Pipeline
+![Continuous Integration](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/Security_checks.png)
+
 1) Create a GitHub Repository with the name `multi-microservices-application-project` and push the code in this branch *(main)* to your remote repository (your newly created repository). 
     - Go to GitHub: https://github.com
     - Login to `Your GitHub Account`

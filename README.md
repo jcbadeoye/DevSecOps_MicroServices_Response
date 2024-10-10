@@ -42,7 +42,7 @@
     - Login to `Your GitHub Account`
     - Create a Repository called `multi-microservices-application-project`
     - Clone the Repository in the `Repository` directory/folder on your `local machine`
-    - Download the code in in this repository `"multi-microservices-application-project main branch"`: https://github.com/jcbadeoye/realworld-microservice-project.git
+    - Download the code in in this repository `"multi-microservices-application-project main branch"`: https://github.com/jcbadeoye/DevSecOps_MicroServices_Response
     - `Unzip` the `code/zipped file`
     - `Copy` and `Paste` everything `from the zipped file` into the `repository you cloned` in your local
     - Open your `Terminal`
@@ -65,7 +65,7 @@
     * `app-product-catalog-service`
     * `app-recommendation-service`
     * `app-shipping-service`
-  - Download the Source Code of each microservice, from their respective branches from this Repository https://github.com/jcbadeoye/realworld-microservice-project.git
+  - Download the Source Code of each microservice, from their respective branches from this Repository https://github.com/jcbadeoye/DevSecOps_MicroServices_Response
   - And Push the Code based on the Microservice to the specific Branch you Created for that Service.
 
 3) Create An IAM Profile/Role For The `Jenkins-CI` Server

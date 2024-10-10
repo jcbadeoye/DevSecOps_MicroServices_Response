@@ -594,7 +594,7 @@ kubectl get ns
   ![SonarQubeResult!](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/sonarqube_code_inspect-test.png)
 
 ### Also Confirm You Have All Service Deployment/Docker Artifacts In DockerHub
-![DockerHubImages](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/also_confirm_microservices-artifacts.pnghttps://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/also_confirm_microservices-artifacts.png)
+![DockerHubImages](https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/also_confirm_microservices-artifacts.png)
 
 ### PERFORM THE DEPLOYMENT IN THE STAGING ENVIRONMENT/NAMESPACE (EKS CLUSTER)
 - To perform the DEPLOYMENT in the staging Envrionment 

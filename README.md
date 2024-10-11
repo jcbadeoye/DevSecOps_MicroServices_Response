@@ -30,7 +30,7 @@ On the infrastructure side, appropriate **networking configurations**, such as *
 
 The entire architecture is designed for **seamless deployment** and efficient operation. **AWS EKS** provides a scalable, managed Kubernetes platform, making it easier to deploy and manage containerized applications while ensuring they can scale as needed. Auto-scaling policies are configured across both the frontend and services tiers, ensuring that the system automatically adjusts its resources to handle fluctuations in demand without manual intervention.
 
-Additionally, the Open Agent Policy is implemented to support flexible and dynamic management of agents in the system. This policy allows for adaptive monitoring and configuration of agents across different services, facilitating proactive issue detection and system resilience. By integrating Open Agent Policy, we ensure that agents are updated in real-time, providing more accurate service monitoring and faster incident response.
+Additionally, the Open Policy Agent (OPA) is integrated into the pipeline to enforce policy checks, ensuring compliance and security throughout the deployment process, I ensure that agents are updated in real-time, providing more accurate service monitoring and faster incident response.
 
 To enhance team collaboration and streamline the communication process, **Slack** is integrated as the primary communication platform. By using Slack, team members can receive real-time notifications, collaborate efficiently, and quickly address any issues that arise during the development and deployment process. This integration fosters an environment of rapid turnaround and responsiveness, ensuring that all stakeholders are aligned and issues are resolved promptly.
 

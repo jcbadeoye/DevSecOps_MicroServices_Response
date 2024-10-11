@@ -3,7 +3,7 @@
 
 Response to the test Criteria 
 #### 1. Service Development 
-Refererencing the Jenkins Pipeline where all the services runs, it shows a success of all and with Ok (200) and Health column shows success and complete kindly refer to this link - https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/confirmed_that_micro_works2.png
+Referencing the Jenkins Pipeline where all services are executed, the pipeline indicates a successful completion for each service. All services return an OK (200) status, and the Health column reflects success and completion. For more details, please refer to this link - -https://github.com/jcbadeoye/DevSecOps_MicroServices_Response/blob/master/docs/img/confirmed_that_micro_works2.png
 
 #### 2 Containerization 
 Considering the optimizization of the Dockerfile for our microservices architecture, several critical factors were carefully considered. Given the importance of each service, I designed an architecture where each microservice resides in its own repository. This allows for isolated development, testing, and deployment processes, ensuring that changes in one service do not inadvertently impact others.

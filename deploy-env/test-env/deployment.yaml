@@ -16,7 +16,7 @@ spec:
       serviceAccountName: default
       containers:
       - name: server
-        image: jcbadeoye/shippingservice:latest  # Update it to yours (just the username mostly)
+        image: jcbadeoye/shippingservice:latest  # Update it to yours (just the username mostly) 
         ports:
         - containerPort: 50051
         env:
